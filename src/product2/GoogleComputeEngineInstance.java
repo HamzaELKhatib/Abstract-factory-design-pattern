@@ -1,7 +1,6 @@
-package com.coffeepoweredcrew.abstractfactory2.src.gcp;
+package com.coffeepoweredcrew.abstractfactory2.src.product2;
 
-import com.coffeepoweredcrew.abstractfactory2.src.Instance;
-import com.coffeepoweredcrew.abstractfactory2.src.Storage;
+import com.coffeepoweredcrew.abstractfactory2.src.product1.Storage;
 
 //Represents a concrete product in a family "Google Cloud Platform"
 public class GoogleComputeEngineInstance implements Instance {

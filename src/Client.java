@@ -1,8 +1,11 @@
 package com.coffeepoweredcrew.abstractfactory2.src;
 
-import com.coffeepoweredcrew.abstractfactory2.src.Instance.Capacity;
-import com.coffeepoweredcrew.abstractfactory2.src.aws.AwsResourceFactory;
-import com.coffeepoweredcrew.abstractfactory2.src.gcp.GoogleResourceFactory;
+import com.coffeepoweredcrew.abstractfactory2.src.factory.AwsResourceFactory;
+import com.coffeepoweredcrew.abstractfactory2.src.factory.GoogleResourceFactory;
+import com.coffeepoweredcrew.abstractfactory2.src.factory.ResourceFactory;
+import com.coffeepoweredcrew.abstractfactory2.src.product1.Storage;
+import com.coffeepoweredcrew.abstractfactory2.src.product2.Instance;
+import com.coffeepoweredcrew.abstractfactory2.src.product2.Instance.Capacity;
 
 public class Client {
 
